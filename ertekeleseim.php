@@ -14,9 +14,7 @@ $user->id=$_SESSION['user_id'];
 $user->readOne();
 $email=$user->email;
 $customerresult=$db->query("SELECT * FROM comments WHERE name='".$email."'");
-
 ?>
-
 <main>
     <div class="container">
         <div class="row">
